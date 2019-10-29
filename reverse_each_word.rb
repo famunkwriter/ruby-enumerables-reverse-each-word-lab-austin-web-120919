@@ -10,7 +10,7 @@ end
 def reverse_ech_word(string)
   array = string.split(" ")
   test_array = []
-  array.collect do |string|
+  array.collect do|string|
     test_array << string.reverse
   end
   test_array.join(" ")
